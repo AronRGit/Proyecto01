@@ -1,0 +1,14 @@
+table{
+    border: black 1px solid;
+}
+td, th {
+    border: black 1px solid;
+  }
+
+h1{
+    display: flex;
+    justify-content: center;
+} 
+body{
+    background-color: yellow;
+} 

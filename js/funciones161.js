@@ -16,5 +16,6 @@ alert(result);
 
 //Funcion resta
 result = resta(60,40);
-alert(result);
+alert("Restando 60-40");
+alert("La resta es"+result);
 

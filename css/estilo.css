@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nombre{
+    font-size: 20px;
+    font-style: bold;
+}

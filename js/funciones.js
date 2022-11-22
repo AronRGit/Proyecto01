@@ -9,7 +9,6 @@ const btntarea15 = document.getElementById("btntarea15");
 const btntarea15e1 = document.getElementById("btntarea15e1");
 const btntarea15e2 = document.getElementById("btntarea15e2");
 const btntarea15e3 = document.getElementById("btntarea15e3");
-const btntarea16 = document.getElementById("btntarea16");
 const btntarea16e1 = document.getElementById("btntarea16e1");
 const btntarea16e2 = document.getElementById("btntarea16e2");
 const btntarea16e3 = document.getElementById("btntarea16e3");
@@ -44,9 +43,6 @@ btntarea15e2.onclick = function() {
 }
 btntarea15e3.onclick = function() {
     iframe.src = "tarea15e3.html";
-}
-btntarea16.onclick = function() {
-    iframe.src = "tarea16.html";
 }
 btntarea16e1.onclick = function() {
     iframe.src = "tarea16e1.html";

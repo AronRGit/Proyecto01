@@ -1,10 +1,16 @@
-let nota1= parseInt(prompt("ingrese la nota 1"));
-let nota2= parseInt(prompt("ingrese la nota 2"));
-let nota3= parseInt(prompt("ingrese la nota 3"));
+const boton = document.getElementById("btnre1");
 
-promedionotas= ((nota1 + nota2 + nota3)/3);
-const resultado1 = document.getElementById("resultado1");
-resultado1.innerText= "El promedio es "+promedionotas.toFixed(2);
+boton.onclick = function(){
+    let nota1= parseInt(prompt("ingrese la nota 1"));
+    let nota2= parseInt(prompt("ingrese la nota 2"));
+    let nota3= parseInt(prompt("ingrese la nota 3"));
+    
+    promedionotas= ((nota1 + nota2 + nota3)/3);
+    const resultado1 = document.getElementById("resultado1");
+    resultado1.innerText= "El promedio es "+promedionotas.toFixed(2);
+}
+
+
 
 let sueldo1 = 1500;
 let sueldo2 = 2200;

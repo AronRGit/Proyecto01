@@ -4,33 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="">
     <title>Tareas del 13-16</title>
 </head>
 <body>
-     <h1>Tarea s13 al s16</h1>
-    <h2>Desarrollo Web con HTML CSS Y Javascript</h2>
-    <section class="container">
-        <section>
-            <p><a href="tarea13.html">Tarea13</a></p> 
-            <p><a href="tarea13p.html">Tarea13Propuestos</a></p>
-            <p><a href="tarea14.html">Tarea14</a></p>
-            <p><a href="tarea14e1.html">Tarea14-Ejercicio 1</a></p>
-            <p><a href="tarea14e2.html">Tarea14-Ejercicio 2</a></p>
-            <p><a href="tarea14e3.html">Tarea14-Ejercicio 3</a></p>
-            <p><a href="tarea15.html">Tarea15</a></p>
-            <p><a href="tarea15e1.html">Tarea15-Ejercicio 1</a></p>
-            <p><a href="tarea15e2.html">Tarea15-Ejercicio 2</a></p>
-            <p><a href="tarea15e3.html">Tarea15-Ejercicio 3</a></p>
-            <p><a href="tarea16.html">Tarea16</a></p>
-            <p><a href="tarea16e1.html">Tarea16-Ejercicio 1</a></p>
-            <p><a href="tarea16e2.html">Tarea16-Ejercicio 2</a></p>
-            <p> <a href="tarea16e3.html">Tarea146Ejercicio 3</a></p>
-        </section>
-        <section class="imagen">
-            <img src="img/image1.jpg" alt="imagen">
-            <p class="nombre">Dennys Aron Ruiz paredes</p>
-        </section>
-    </section>
+    <h1>Desarrollo Web con HTML CSS Y Javascript</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-bold fs-4" role="button" data-bs-toggle="dropdown" aria-expanded="false"  aria-current="page" id="btntarea13" href="">Tarea13</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="" id="btntarea13p">Ejercicios Propuestos</a></li>
+                </ul>    
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-bold fs-4" href="" id="btntarea14" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tarea 14
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="" id="btntarea14e1">Ejercicio 1</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="" id="btntarea14e2">Ejercico 2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="">Ejercico 3</a></li>
+                  
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-bold fs-4" href="" id="btntarea15" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tarea 15
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="" id="btntarea15e1">Ejercicio 1</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="" id="btntarea15e2">Ejercico 2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="" id="btntarea15e3">Ejercico 3</a></li>
+                  
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-bold fs-4" href="" id="btntarea16" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tarea 16
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="" id="btntarea16e1">Ejercicio 1</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="" id="btntarea16e2">Ejercico 2</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="" id="btntarea15e3">Ejercico 3</a></li>
+                  
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <iframe id="frame"
+    name="frame"
+    title="frame1"
+    width="1000"
+    height="1400"
+    frameborder="0"
+    scrolling="no"
+    marginheight="0"
+    marginwidth="0"
+    src="">
+</iframe>
 </body>
 </html>
+<script src="js/funciones.js"> </script>
